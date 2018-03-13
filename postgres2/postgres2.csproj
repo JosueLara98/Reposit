@@ -53,6 +53,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>basedatos1DataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="clienteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clienteForm.Designer.cs">
+      <DependentUpon>clienteForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="clientesForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,6 +97,9 @@
     <Compile Include="trabajadoresForm.Designer.cs">
       <DependentUpon>trabajadoresForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="clienteForm.resx">
+      <DependentUpon>clienteForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="clientesForm.resx">
       <DependentUpon>clientesForm.cs</DependentUpon>
     </EmbeddedResource>
